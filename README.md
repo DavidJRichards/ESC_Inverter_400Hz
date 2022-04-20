@@ -42,4 +42,5 @@ It may be possible to operate this circuit at 12 volts DC input is the transform
 
 ### [Sensorless BLDC motor control with Arduino – DIY ESC](https://simple-circuit.com/arduino-sensorless-bldc-motor-controller-esc/)
 
-### [AVRDUDESS – A GUI for AVRDUDE](Sensorless BLDC motor control with Arduino – DIY ESC)
+### [AVRDUDESS – A GUI for AVRDUDE](https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/)
+
