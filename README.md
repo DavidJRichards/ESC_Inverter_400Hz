@@ -19,6 +19,8 @@ The firmware options are set to:
 
 [arduino sketch](./ESC_400Hz_Gen/ESC_400Hz_Gen.ino)
 
+The firmware also oututs a 5 volt 400 Hz square wave sync signal on the unused speed control input (three way connector - white wire)
+
 ![Transformer primary voltage waveform](./images/Voltage_waveform_primary_onload.jpg)
 
 ![Transformer secondary voltage waveform](./images/Voltage_waveform_secondary_onload.jpg)
