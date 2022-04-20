@@ -5,7 +5,11 @@ A new firmare is programmed into the atmega 8 microcontroller to drive three pha
 
 ![Overview](./images/IMG_20220419_183145.jpg)
 
-[more images](./images)
+[test load hardare](./images/IMG_20220419_092617.jpg)
+
+[test load waveforms](./images/IMG_20220419_092551.jpg)
+
+[three phase transformer](./images/IMG_20220419_124352.jpg)
 
 ## prototype firmware
 
