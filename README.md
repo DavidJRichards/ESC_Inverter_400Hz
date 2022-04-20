@@ -19,6 +19,10 @@ The firmware options are set to:
 
 [arduino sketch](./ESC_400Hz_Gen/ESC_400Hz_Gen.ino)
 
+![Transformer primary voltage waveform](./images/Voltage_waveform_primary_onload.jpg)
+
+![Transformer secondary voltage waveform](./images/Voltage_waveform_secondary_onload.jpg)
+
 ## ESC hardware notes
 
 Commutation was checked using the test resistor netword shown in the notes, one pair of resistors for each phase output. 
