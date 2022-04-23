@@ -17,13 +17,27 @@ A new firmare is programmed into the atmega 8 microcontroller to drive three pha
 
 The firmware is a hacked version of a DIY BLDC motor driver with the back EMF feedback sensing removed and operating at fixed frequency of approx 403Hz. Adapted form arduino Uno 348 to atmega 8. programming is done with avrdude connected by adding programming connections to CPU, no bootloaded or serial connection is needed.
 
+### tgy ESC
+
+My spare ESC is simialr to an turnigy design with motro driver FETS connected to ports B and D
+
 The firmware options are set to:
 
   * Board: ATmega 8
   * Clock: Internal 8 MHz
   * Bootloader: No bootloader
 
-[arduino sketch](./ESC_400Hz_Gen/ESC_400Hz_Gen.ino)
+[arduino sketch (tgy ESC)](./ESC_400Hz_Gen/ESC_400Hz_Gen.ino)
+
+### tp ESC
+
+My other spare ESC turned out to be a different design with all outputs connected to port D and also used a 16 Mhz ceramic resonator for the clock source.
+
+  * Board: ATmega 8
+  * Clock: Esternal 16 MHz
+  * Bootloader: No bootloader
+
+[arduino sketch (tp ESC)](./ESC_400Hz_Gen_tp/ESC_400Hz_Gen_tp.ino)
 
 The firmware also oututs a 5 volt 400 Hz square wave sync signal on the unused speed control input (three way connector - white wire)
 
